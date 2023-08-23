@@ -1,5 +1,6 @@
 import RootLayout from '@/components/layout/RootLayout';
 import Banner from '@/components/ui/Banner';
+import Products from '@/components/ui/Products';
 import Head from 'next/head';
 import React from 'react';
 
@@ -11,6 +12,7 @@ const HomePage = () => {
         <meta name="Home" description="this page in created by next js" />
       </Head>
       <Banner />
+      <Products />
     </div>
   );
 };
