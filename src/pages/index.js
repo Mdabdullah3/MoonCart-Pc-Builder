@@ -1,4 +1,5 @@
 import RootLayout from '@/components/layout/RootLayout';
+import Banner from '@/components/ui/Banner';
 import Head from 'next/head';
 import React from 'react';
 
@@ -9,7 +10,7 @@ const HomePage = () => {
         <title>Home</title>
         <meta name="Home" description="this page in created by next js" />
       </Head>
-      <h1>This is Home</h1>
+      <Banner />
     </div>
   );
 };
