@@ -2,6 +2,7 @@ import RootLayout from '@/components/layout/RootLayout';
 import Banner from '@/components/ui/Banner';
 import Categori from '@/components/ui/Categori';
 import Products from '@/components/ui/Products';
+import Snap from '@/components/ui/Snap';
 import Head from 'next/head';
 import React from 'react';
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Banner />
       <Products />
       <Categori />
+      <Snap />
     </div>
   );
 };

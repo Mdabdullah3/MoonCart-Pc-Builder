@@ -69,7 +69,7 @@ const Categori = () => {
                     direction="left"
                 >
                     {categori.map((item) => (
-                        <div className="px-12 rounded-lg py-6 bg-white shadow-lg ml-10" key={item.id} >
+                        <div className="mb-8 px-12 rounded-lg py-6 bg-white shadow-lg ml-10" key={item.id} >
                             <Image src={item.icon} alt="categori img" width={100} />
                             <h3 className='light-effect tracking-wider text-center text-lg pt-3'>
                                 {item.name}
