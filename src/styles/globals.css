@@ -12,3 +12,7 @@ body {
 .background {
   background: url(../Assets/bg-8.png);
 }
+.service {
+  background: url(../Assets/service.jpg);
+  background-size: cover;
+}

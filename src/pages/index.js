@@ -1,8 +1,10 @@
 import RootLayout from '@/components/layout/RootLayout';
 import Banner from '@/components/ui/Banner';
+import Brands from '@/components/ui/Brands';
 import Categori from '@/components/ui/Categori';
 import Products from '@/components/ui/Products';
 import Reviews from '@/components/ui/Reviews';
+import Service from '@/components/ui/Service';
 import Snap from '@/components/ui/Snap';
 import Head from 'next/head';
 import React from 'react';
@@ -18,7 +20,10 @@ const HomePage = () => {
       <Products />
       <Categori />
       <Snap />
+      <Brands />
       <Reviews />
+      <Service />
+
     </div>
   );
 };

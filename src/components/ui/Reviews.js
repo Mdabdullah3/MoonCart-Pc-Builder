@@ -18,7 +18,7 @@ const Reviews = () => {
     };
 
     return (
-        <div className='mt-40 relative'>
+        <div className='mt-32 relative'>
             <h1 className="text-center text-2xl font-semibold font-mono">
                 Customers Reviews
             </h1>
