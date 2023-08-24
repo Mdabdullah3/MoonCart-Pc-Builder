@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import { AiTwotoneStar } from 'react-icons/ai';
 
 const ProductCard = ({ product }) => {
     console.log(product);
@@ -16,6 +17,14 @@ const ProductCard = ({ product }) => {
                 }</div>
                 <h1 className='text-xl tracking-wider capitalize'>{product.categori}</h1>
                 <h1 className='mt-2 tracking-wider text-md'>{product?.description.slice(0, 100)}</h1>
+                <div className="flex justify-start mt-2 gap-3">
+                    {Array?.from(Array(parseInt(product?.rating)), (e, i) => (
+                        <AiTwotoneStar
+                            key={i}
+                            className="w-5 text-2xl text-[#F4D94A]"
+                        />
+                    ))}
+                </div>
                 <div class="flex mt-6 gap-6 text-sm font-medium justify-center">
                     <button class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-[#F4D94A] px-5 py-2 hover:shadow-lg tracking-wider hover:text-black text-white rounded-full hover:bg-transparent border-2 border-[#F4D94A] ">
                         Order Now
