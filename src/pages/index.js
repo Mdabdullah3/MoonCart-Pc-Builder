@@ -21,8 +21,8 @@ const HomePage = () => {
       <Categori />
       <Snap />
       <Brands />
-      <Reviews />
       <Service />
+      <Reviews />
 
     </div>
   );

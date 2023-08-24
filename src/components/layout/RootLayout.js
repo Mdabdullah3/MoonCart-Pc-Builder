@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
+import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 
 const RootLayout = ({ children }) => {
@@ -12,12 +13,8 @@ const RootLayout = ({ children }) => {
             <section className=' min-h-screen'>
                 {children}
             </section>
-            <footer
-                style={{
-                    textAlign: "center",
-                }}
-            >
-                Ant Design ©2023 Created by Ant UED
+            <footer>
+                <Footer />
             </footer>
         </div>
 

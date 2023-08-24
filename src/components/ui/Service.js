@@ -4,7 +4,7 @@ import { MdOutlineEditNote, MdAssignmentReturn } from "react-icons/md";
 import { BsFillCreditCard2BackFill } from "react-icons/bs";
 const Service = () => {
     return (
-        <div className="service grid grid-cols-1 mt-10 px-10  md:grid-cols-4 text-white font-mono py-20">
+        <div className="service grid grid-cols-1 mt-20 px-10  md:grid-cols-4 text-white font-mono py-20">
             <div className="flex items-center gap-5 pl-10 mb-5">
                 <div className="text-6xl text-white">
                     <RiShoppingCart2Line />
