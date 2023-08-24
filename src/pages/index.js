@@ -1,5 +1,6 @@
 import RootLayout from '@/components/layout/RootLayout';
 import Banner from '@/components/ui/Banner';
+import Categori from '@/components/ui/Categori';
 import Products from '@/components/ui/Products';
 import Head from 'next/head';
 import React from 'react';
@@ -13,6 +14,7 @@ const HomePage = () => {
       </Head>
       <Banner />
       <Products />
+      <Categori />
     </div>
   );
 };

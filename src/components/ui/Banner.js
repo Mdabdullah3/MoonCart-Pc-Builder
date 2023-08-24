@@ -15,8 +15,12 @@ const Banner = () => {
                     <button className='mt-4 px-8 py-4 border-2 border-[#F4D94A]
                     text-lg tracking-widest hover:bg-[#F4D94A] transition duration-300 hover:text-white'>See Details</button>
                 </div>
-                <div>
+                <div className=' relative'>
                     <Image src={mouse} alt="mouse" width={900} className='' />
+                    <h1 className='font-semibold rounded-full bottom-4 right-10 absolute text-lg tracking-wider px-8 py-10 bg-[#F4D94A] text-white'>Sale Up to
+                        <br />
+                        <span className='text-2xl'>60% off</span>
+                    </h1>
                 </div>
             </div>
 

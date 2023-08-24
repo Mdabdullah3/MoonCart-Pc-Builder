@@ -10,7 +10,7 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            return window.scrollY > 20 ? setBg(true) : setBg(false);
+            return window.scrollY > 50 ? setBg(true) : setBg(false);
         });
     });
     const paths = [
