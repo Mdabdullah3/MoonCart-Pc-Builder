@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
 import { AiTwotoneStar } from 'react-icons/ai';
 
@@ -30,9 +31,9 @@ const ProductCard = ({ product }) => {
                     </button>
 
 
-                    <button class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider hover:text-white rounded-full hover:bg-[#F4D94A] border-2 border-[#F4D94A] ">
+                    <Link href={`/product/${product?._id}`} class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider hover:text-white rounded-full hover:bg-[#F4D94A] border-2 border-[#F4D94A] ">
                         See Details
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
