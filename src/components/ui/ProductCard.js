@@ -3,7 +3,6 @@ import React from 'react';
 import { AiTwotoneStar } from 'react-icons/ai';
 
 const ProductCard = ({ product }) => {
-    console.log(product);
     return (
         <div className='bg-white shadow-xl py-8 rounded-3xl relative'>
             <div className=''>
@@ -16,7 +15,7 @@ const ProductCard = ({ product }) => {
                 <div className=''>{product?.stock === true ? <h1 className='text-sm absolute top-4 right-2 rounded-md px-4 py-2 bg-[#F4D94A] text-white'> In Stock</h1> : <h1 className='text-sm absolute top-4 right-2 rounded-md px-4 py-2 bg-red-500 text-white'>Stock Out</h1>
                 }</div>
                 <h1 className='text-xl tracking-wider capitalize'>{product.categori}</h1>
-                <h1 className='mt-2 tracking-wider text-md'>{product?.description.slice(0, 100)}</h1>
+                <h1 className='mt-2 tracking-wider text-md'>{product?.description?.slice(0, 100)}</h1>
                 <div className="flex justify-start mt-2 gap-3">
                     {Array?.from(Array(parseInt(product?.rating)), (e, i) => (
                         <AiTwotoneStar

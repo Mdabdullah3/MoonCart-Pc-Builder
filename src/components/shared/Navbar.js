@@ -24,38 +24,40 @@ const Navbar = () => {
         },
         {
             page: "Blog",
-            route: "/blog",
+            route: "/Blog",
         },
     ];
 
     const categories = [
         {
-            page: "Cpu / Processor",
-            route: "/processor"
+            route: "category/processor",
+            name: "Cup / Processor",
         },
         {
-            page: "Monitor",
-            route: "/monitor"
+            route: "category/monitor",
+            name: "Monitor"
         },
         {
-            page: "MotherBoard",
-            route: "/motherboard"
+            route: "category/motherboard",
+            name: "Motherboard"
+
         },
         {
-            page: "RAM",
-            route: "/ram"
+            route: "category/ram",
+            name: "RAM"
+
         },
         {
-            page: "Storage",
-            route: "/storage"
+            route: "category/storage",
+            name: "Storage"
         },
         {
-            page: "PSU",
-            route: "/psu"
+            route: "category/psu",
+            name: "Psu"
         },
         {
-            page: "Other",
-            route: "/other"
+            route: "/other",
+            name: "other"
         }
     ]
 
@@ -86,7 +88,7 @@ const Navbar = () => {
                                         key={index + 1}
                                         href={path.route}
                                     >
-                                        <h1 className='mr-4'> {path.page}</h1>
+                                        <h1 className='mr-4'> {path.name}</h1>
                                     </Link>)
                                 }
                             </ul>
