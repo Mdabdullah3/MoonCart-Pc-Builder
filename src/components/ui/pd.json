@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Intel Core i7-11700K Processor",
+    "price": 349.99,
+    "rating": 4.8,
+    "categori": "processor",
+    "description": "The Intel Core i7-11700K is a high-performance 8-core, 16-thread CPU designed for gaming and content creation. With a base clock speed of 3.6GHz and a turbo boost frequency of up to 5.0GHz, it delivers exceptional processing power. This processor is built on the 14nm architecture and supports DDR4 memory up to 3200MHz. It's unlocked for easy overclocking, allowing you to push it even further for maximum performance. Whether you're gaming, streaming, or tackling intensive tasks, the Core i7-11700K has you covered. It comes with Intel's integrated UHD Graphics 750 for smooth visuals and supports PCIe 4.0 for high-speed data transfer. Upgrade your system with this powerhouse CPU.\n\nKey Features:\n- Cores/Threads: 8/16\n- Base Clock: 3.6GHz\n- Max Turbo Frequency: 5.0GHz\n- TDP: 125W\n- L3 Cache: 16MB\n- Integrated Graphics: Intel UHD Graphics 750\n- PCIe Version: PCIe 4.0",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i7-12700/i7-12700-01-500x500.jpg"
+  },
+  {
+    "name": "AMD Ryzen 9 5900X Processor",
+    "price": 549.99,
+    "rating": 4.9,
+    "categori": "processor",
+    "description": "The AMD Ryzen 9 5900X is a 12-core, 24-thread CPU known for its exceptional multi-core performance. With a base clock speed of 3.7GHz and a turbo boost frequency of up to 4.8GHz, it's a powerhouse for both gaming and professional workloads. This processor is built on the 7nm Zen 3 architecture, delivering impressive efficiency and performance gains. It supports DDR4 memory up to 3200MHz and is unlocked for overclocking enthusiasts. The Ryzen 9 5900X features AMD's Infinity Fabric technology for low-latency communication between cores, ensuring smooth multitasking and gaming experiences. Elevate your computing with this top-tier processor.\n\nKey Features:\n- Cores/Threads: 12/24\n- Base Clock: 3.7GHz\n- Max Turbo Frequency: 4.8GHz\n- TDP: 105W\n- L3 Cache: 64MB\n- Infinity Fabric Technology: Yes",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5950x/ryzen-9-5950x-1-500x500.jpg"
+  },
+  {
+    "name": "Corsair Vengeance RGB PRO 32GB DDR4 RAM",
+    "price": 179.99,
+    "rating": 4.7,
+    "categori": "RAM",
+    "description": "Upgrade your PC's memory with the Corsair Vengeance RGB PRO 32GB DDR4 RAM. This high-performance RAM kit not only provides ample capacity for multitasking and gaming but also adds a touch of style with customizable RGB lighting. With a speed of 3200MHz, it ensures fast and responsive performance in applications and games. The RAM modules feature Corsair's signature aluminum heatspreaders for effective heat dissipation, keeping your memory cool even during intense usage. With support for XMP 2.0, you can easily overclock this RAM for even greater performance. Elevate your PC's performance and aesthetics with Corsair Vengeance RGB PRO RAM.\n\nKey Features:\n- Capacity: 32GB (2 x 16GB)\n- Speed: 3200MHz\n- Type: DDR4\n- RGB Lighting: Yes, customizable\n- Heatspreader Material: Aluminum\n- XMP 2.0 Support: Yes",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/ram/lexar/16gb-ddr4-3200mhz/16gb-ddr4-3200mhz-01-500x500.webp"
+  },
+  {
+    "name": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "price": 149.99,
+    "rating": 4.9,
+    "categori": "Storage",
+    "description": "Experience blazing-fast storage performance with the Samsung 970 EVO Plus 1TB NVMe SSD. With read speeds of up to 3,500MB/s and write speeds of up to 3,300MB/s, this SSD ensures rapid data access and transfer. It's perfect for gaming, content creation, and demanding applications. The 970 EVO Plus utilizes Samsung's V-NAND technology and comes with a 5-year limited warranty for peace of mind. With a capacity of 1TB, you'll have plenty of space for your files, games, and applications. Upgrade your storage to the next level with Samsung's reliable and high-speed NVMe SSD.\n\nKey Features:\n- Capacity: 1TB\n- Interface: NVMe PCIe Gen 3.0 x4\n- Read Speed: Up to 3,500MB/s\n- Write Speed: Up to 3,300MB/s\n- V-NAND Technology: Yes\n- Warranty: 5-year limited",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/870-qvo/870-qvo-1-500x500.jpg"
+  },
+  {
+    "name": "ASUS ROG Strix B550-F Gaming Wi-Fi Motherboard",
+    "price": 189.99,
+    "rating": 4.8,
+    "categori": "motherboard",
+    "description": "The ASUS ROG Strix B550-F Gaming Wi-Fi Motherboard is a feature-packed motherboard designed for gamers and PC enthusiasts. It supports AMD Ryzen processors and features PCIe 4.0 support for high-speed data transfer and graphics cards. With built-in Wi-Fi 6, you can enjoy lag-free online gaming and fast internet connectivity. The motherboard boasts robust power delivery and cooling solutions, ensuring stable performance even during intense gaming sessions. It also features customizable RGB lighting, allowing you to personalize your build's aesthetics. With ASUS SupremeFX audio, you'll experience immersive sound for gaming and content creation. Elevate your gaming experience with the ROG Strix B550-F.\n\nKey Features:\n- CPU Socket: AM4\n- Chipset: AMD B550\n- Wi-Fi: Wi-Fi 6 (802.11ax)\n- PCIe Slots: 2 x PCIe 4.0 x16\n- RGB Lighting: Yes, customizable\n- Audio: ASUS SupremeFX\n- Cooling: Robust cooling solutions",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-strix-b660-g-gaming-wifi/rog-strix-b660-g-gaming-wifi-01-500x500.jpg"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080 Graphics Card",
+    "price": 799.99,
+    "rating": 5,
+    "categori": "other",
+    "description": "The NVIDIA GeForce RTX 3080 is a high-end graphics card designed for gaming enthusiasts and content creators. With 10GB of GDDR6X memory and ray tracing technology, it delivers stunning visuals and exceptional performance in the latest games and applications. The RTX 3080 features NVIDIA's Ampere architecture, which offers significant performance gains and efficiency improvements. It supports real-time ray tracing for lifelike lighting, reflections, and shadows. With DLSS AI acceleration, you can boost frame rates while maintaining image quality. Whether you're into 4K gaming or 3D rendering, the RTX 3080 has the power to handle it all. Elevate your graphics performance with this powerhouse GPU.\n\nKey Features:\n- GPU Architecture: NVIDIA Ampere\n- VRAM: 10GB GDDR6X\n- Ray Tracing Cores: Yes\n- DLSS Support: Yes\n- Ray Tracing Support: Yes\n- Performance: Exceptional",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/rtx-3070/rtx-3070-1-500x500.jpg"
+  },
+  {
+    "name": "Corsair RM850x 850W 80+ Gold PSU",
+    "price": 139.99,
+    "rating": 4,
+    "categori": "psu",
+    "description": "The Corsair RM850x is a high-quality power supply unit (PSU) that delivers reliable and efficient power to your PC components. With an 80+ Gold certification, it ensures high efficiency and minimal heat generation. The RM850x features fully modular cables for easy cable management and a clean build. It's equipped with Japanese capacitors for long-term reliability. The Zero RPM fan mode ensures silent operation during low to medium loads, and the PSU is backed by a 10-year warranty for peace of mind. Whether you're building a gaming rig or a workstation, the RM850x has the power and reliability you need.\n\nKey Features:\n- Wattage: 850W\n- Efficiency: 80+ Gold\n- Modular: Fully modular\n- Fan Mode: Zero RPM fan mode\n- Capacitors: Japanese capacitors\n- Warranty: 10-year limited",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v550/meta-v550-01-500x500.webp"
+  },
+  {
+    "name": "LG 27GL83A-B 27-Inch Gaming monitor",
+    "price": 379.99,
+    "rating": 5,
+    "categori": "monitor",
+    "description": "Experience smooth gaming visuals with the LG 27GL83A-B 27-Inch Gaming monitor. With a QHD resolution and a fast 144Hz refresh rate, it delivers crisp and responsive gameplay. The monitor features an IPS panel for vibrant colors and wide viewing angles. It supports NVIDIA G-Sync compatibility, reducing screen tearing and stuttering for a seamless gaming experience. The 1ms response time ensures minimal input lag. With customizable RGB lighting on the back, you can add a touch of style to your gaming setup. The monitor also includes an adjustable stand for ergonomic viewing. Immerse yourself in your favorite games with the LG 27GL83A-B.\n\nKey Features:\n- Screen Size: 27 inches\n- Resolution: QHD (2560 x 1440)\n- Refresh Rate: 144Hz\n- Panel Type: IPS\n- Adaptive Sync: NVIDIA G-Sync compatible\n- Response Time: 1ms\n- RGB Lighting: Yes, customizable",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/22mp400-b/lg-22mp400-b-01-500x500.jpg"
+  },
+  {
+    "name": "Crucial MX500 1TB SATA SSD",
+    "price": 109.99,
+    "rating": 4,
+    "categori": "Storage",
+    "description": "Upgrade your system's storage with the Crucial MX500 1TB SATA SSD. This SSD provides reliable performance for booting up your operating system, loading applications, and storing files. With a capacity of 1TB, you'll have ample space for your data. The MX500 features 3D NAND technology for enhanced reliability and energy efficiency. It also includes built-in data encryption to keep your files secure. Whether you're upgrading your laptop or desktop, the Crucial MX500 is a cost-effective choice for improved storage performance.\n\nKey Features:\n- Capacity: 1TB\n- Interface: SATA III (6Gb/s)\n- Form Factor: 2.5-inch\n- NAND Technology: 3D NAND\n- Encryption: AES 256-bit\n- Warranty: 5-year limited",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/ssd/twinmos/128gb-m-2-2280-sataiii-ssd/128gb-m-2-2280-sataiii-ssd-01-500x500.webp"
+  },
+  {
+    "name": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "price": 129.99,
+    "rating": 5,
+    "categori": "other",
+    "description": "Elevate your gaming experience with the Logitech G Pro X Mechanical Gaming Keyboard. This keyboard features hot-swappable mechanical switches, allowing you to customize your typing experience without soldering. With customizable RGB lighting, you can personalize your keyboard's look to match your gaming setup. The G Pro X includes dedicated media controls for convenient audio adjustments during gameplay. It also comes with a detachable cable for easy portability. Whether you're a competitive gamer or a casual typist, the G Pro X offers performance and versatility.\n\nKey Features:\n- Switch Type: Hot-swappable mechanical switches\n- RGB Lighting: Yes, customizable\n- Media Controls: Dedicated media controls\n- Detachable Cable: Yes\n- Key Rollover: N-key rollover",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/dareu/ek87/ek87-01-500x500.jpg"
+  },
+  {
+    "name": "Razer DeathAdder V2 Gaming Mouse",
+    "price": 69.99,
+    "rating": 5,
+    "categori": "other",
+    "description": "The Razer DeathAdder V2 is an iconic gaming mouse known for its precision and comfort. With Razer's Focus+ Optical Sensor, it offers a 20,000 DPI sensitivity for precise tracking. The mouse features Razer Optical Mouse Switches for faster response times and extended durability. It also includes customizable RGB lighting, allowing you to match your gaming setup's aesthetics. The DeathAdder V2's ergonomic design provides hours of comfortable gaming, and it's suitable for various grip styles. Dominate your games with the performance and style of the Razer DeathAdder V2.\n\nKey Features:\n- DPI: 20,000\n- Sensor: Razer Focus+ Optical Sensor\n- Switches: Razer Optical Mouse Switches\n- RGB Lighting: Yes, customizable\n- Ergonomic Design: Yes\n- Grip Styles: Suitable for various grip styles",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse/razer/deathadder-essential-goliathus-pikachu/deathadder-essential-goliathus-pikachu-01-500x500.jpg"
+  },
+  {
+    "name": "HyperX Cloud II Gaming Headset",
+    "price": 99.99,
+    "rating": 5,
+    "categori": "other",
+    "description": "Experience immersive gaming audio with the HyperX Cloud II Gaming Headset. This headset features 53mm drivers for powerful and clear sound. With virtual 7.1 surround sound, you can pinpoint audio cues in your favorite games. The Cloud II includes a detachable noise-canceling microphone for crisp voice communication. It's compatible with PC, PS4, Xbox One, and other platforms. The memory foam ear cushions and durable aluminum frame ensure comfort and longevity. Whether you're gaming, streaming, or listening to music, the HyperX Cloud II delivers exceptional audio quality.\n\nKey Features:\n- Drivers: 53mm\n- Surround Sound: Virtual 7.1 surround sound\n- Microphone: Detachable noise-canceling microphone\n- Compatibility: PC, PS4, Xbox One, and more\n- Ear Cushions: Memory foam\n- Frame: Durable aluminum frame",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w106/w106-01-500x500.webp"
+  },
+  {
+    "name": "NZXT H510i Compact ATX Mid-Tower Case",
+    "price": 99.99,
+    "rating": 4,
+    "categori": "other",
+    "description": "The NZXT H510i is a compact ATX mid-tower case designed for clean and efficient builds. It features a sleek and modern design with a tempered glass side panel to showcase your components. The case includes an integrated RGB lighting and fan control system, allowing you to customize your system's aesthetics. With cable management features and removable dust filters, building and maintaining your PC is a breeze. The H510i also includes a built-in cable routing kit for a clean and tidy interior. Whether you're a first-time builder or an experienced enthusiast, the NZXT H510i makes building and showcasing your PC a joy.\n\nKey Features:\n- Form Factor: Compact ATX Mid-Tower\n- Side Panel: Tempered glass\n- RGB Lighting: Integrated RGB lighting and fan control\n- Cable Management: Cable routing kit\n- Dust Filters: Removable dust filters\n- Build: Clean and efficient",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/casing/xtreme/xjogos-200-12/xjogos-200-12-01-500x500.webp"
+  },
+  {
+    "name": "EVGA GeForce GTX 1660 Super SC Ultra Gaming GPU",
+    "price": 249.99,
+    "rating": 4,
+    "categori": "other",
+    "description": "The EVGA GeForce GTX 1660 Super SC Ultra is a budget-friendly gaming GPU that doesn't compromise on performance. With 6GB of GDDR5 memory and 1408 CUDA cores, it's capable of delivering smooth gameplay in popular titles. The GPU features a compact design, making it suitable for smaller PC cases. It includes a dual-fan cooling solution for efficient heat dissipation. The SC Ultra version is factory overclocked for extra performance. Whether you're a casual gamer or looking to upgrade your system on a budget, the GTX 1660 Super SC Ultra is a solid choice.\n\nKey Features:\n- VRAM: 6GB GDDR5\n- CUDA Cores: 1408\n- Cooling: Dual-fan cooling\n- Form Factor: Compact\n- Overclocked: Factory overclocked\n- Budget-Friendly: Yes",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/graphics-card/peladn/gtx-1660-6g/gtx-1660-6g-01-500x500.webp"
+  },
+  {
+    "name": "Seagate BarraCuda 2TB 7200 RPM HDD",
+    "price": 59.99,
+    "rating": 3,
+    "categori": "Storage",
+    "description": "The Seagate BarraCuda 2TB HDD offers reliable and spacious storage for your files and applications. With a high 7200 RPM rotational speed, it ensures quick data access. The HDD features a 3.5-inch form factor and SATA III interface for easy compatibility with most desktop systems. Whether you need to store games, videos, or general data, the BarraCuda 2TB HDD provides ample space at an affordable price. It's a cost-effective solution for expanding your storage capacity.\n\nKey Features:\n- Capacity: 2TB\n- RPM: 7200\n- Form Factor: 3.5-inch\n- Interface: SATA III\n- Reliable Storage: Yes\n- Cost-Effective: Yes",
+    "stock": true,
+    "img": "https://www.startech.com.bd/asustor-as6604t-nas-storage"
+  },
+  {
+    "name": "Acer R240HY 23.8-Inch IPS monitor",
+    "price": 119.99,
+    "rating": 5,
+    "categori": "monitor",
+    "description": "Enjoy vibrant visuals with the Acer R240HY 23.8-Inch IPS monitor. With a Full HD resolution and an IPS panel, it delivers clear and accurate colors from wide viewing angles. The monitor features a slim bezel design for a sleek and modern look. It includes VGA, DVI, and HDMI inputs for versatile connectivity. The R240HY is ENERGY STAR certified, ensuring energy-efficient operation. Whether you're working, watching movies, or browsing the web, this monitor provides an excellent visual experience.\n\nKey Features:\n- Screen Size: 23.8 inches\n- Resolution: Full HD (1920 x 1080)\n- Panel Type: IPS\n- Connectivity: VGA, DVI, HDMI\n- Slim Bezel: Yes\n- Energy Efficiency: ENERGY STAR certified",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/eb321hq-abi/eb321hq-abi-02-500x500.webphttps://www.startech.com.bd/image/cache/catalog/monitor/acer/eb321hq-abi/eb321hq-abi-02-500x500.webp"
+  },
+  {
+    "name": "Logitech C920 HD Pro Webcam",
+    "price": 79.99,
+    "rating": 4,
+    "categori": "Accessories",
+    "description": "Upgrade your video calls and streaming with the Logitech C920 HD Pro Webcam. This webcam captures video in Full HD 1080p at 30 frames per second for clear and smooth visuals. It features dual stereo microphones for crisp audio and includes automatic low-light correction for well-lit results in any environment. The C920 is compatible with a wide range of software and platforms, making it ideal for video conferencing, live streaming, and content creation. It can clip onto laptops and monitors or be mounted on a tripod for versatile placement.\n\nKey Features:\n- Video Quality: Full HD 1080p at 30fps\n- Microphones: Dual stereo microphones\n- Low-Light Correction: Yes\n- Compatibility: Wide range of software and platforms\n- Mounting Options: Clip or tripod mountable\n- Versatile Usage: Video calls, streaming, content creation",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/webcam/astrum/wm200/wm200-01-500x500.jpg"
+  },
+  {
+    "name": "Cooler Master Hyper 212 RGB CPU Cooler",
+    "price": 44.99,
+    "rating": 4,
+    "categori": "Accessories",
+    "description": "Keep your CPU cool with the Cooler Master Hyper 212 RGB CPU Cooler. This air cooler features direct contact heat pipes for efficient heat dissipation. It includes a single 120mm RGB fan that adds a touch of style to your build. The Hyper 212 is compatible with a wide range of Intel and AMD sockets, making it suitable for various systems. It offers quiet and reliable cooling performance for gaming and productivity tasks. With customizable RGB lighting, you can match your cooler to your system's aesthetics.\n\nKey Features:\n- Compatibility: Intel and AMD sockets\n- Heat Pipes: Direct contact heat pipes\n- Fan: 120mm RGB fan\n- Quiet Operation: Yes\n- RGB Lighting: Customizable\n- Reliable Cooling: Efficient heat dissipation",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/component/cpu-cooler/cooler-master/hyper-t20/t20-01-500x500.jpg"
+  },
+  {
+    "name": "TP-Link Archer C4000 Tri-Band Wi-Fi Router",
+    "price": 149.99,
+    "rating": 5,
+    "categori": "Accessories",
+    "description": "Upgrade your home network with the TP-Link Archer C4000 Tri-Band Wi-Fi Router. This router offers tri-band Wi-Fi with speeds of up to 4000Mbps, ensuring fast and reliable connections for all your devices. It features six high-performance antennas and MU-MIMO technology for excellent coverage and multi-device support. With advanced security features and parental controls, you can keep your network safe and family-friendly. The Archer C4000 is perfect for streaming, gaming, and smart home applications. Take control of your home network with this powerful router.\n\nKey Features:\n- Wi-Fi Speed: Up to 4000Mbps\n- Tri-Band: Yes\n- Antennas: Six high-performance antennas\n- MU-MIMO: Yes\n- Security: Advanced security features\n- Parental Controls: Yes\n- Ideal for: Streaming, gaming, smart home",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/c20/1-500x500.jpg"
+  },
+  {
+    "name": "Anker Wireless Charging Pad",
+    "price": 19.99,
+    "rating": 5,
+    "categori": "Accessories",
+    "description": "Charge your smartphone wirelessly with the Anker Wireless Charging Pad. This charging pad is compatible with a wide range of Qi-enabled devices, including iPhones and Android phones. It delivers fast charging speeds for quick and convenient power-ups. The pad features a non-slip design to keep your phone in place and includes LED indicators to show the charging status. With its compact and sleek design, it's a great addition to your desk or nightstand. Enjoy the convenience of wireless charging with the Anker Wireless Charging Pad.\n\nKey Features:\n- Compatibility: Qi-enabled devices\n- Charging Speed: Fast charging\n- Non-Slip Design: Yes\n- LED Indicators: Charging status\n- Compact Design: Sleek and convenient\n- Wireless Convenience: No more tangled cables",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mobile-accessories/anker/powerwave-3-in-1/powerwave-3-in-1-01-500x500.webp"
+  },
+  {
+    "name": "Corsair Dark Core RGB/SE Wired/Wireless Gaming Mouse",
+    "price": 79.99,
+    "rating": 4,
+    "categori": "other",
+    "description": "The Corsair Dark Core RGB/SE is a versatile gaming mouse that offers both wired and wireless modes. With customizable RGB lighting and interchangeable side grips, you can tailor the mouse to your liking. It features a high-precision 16,000 DPI optical sensor for accurate tracking. The Dark Core includes customizable buttons and onboard storage for macros and profiles. It's also compatible with Corsair's wireless charging mouse pad for convenient charging. Whether you're gaming or working, this mouse adapts to your needs.\n\nKey Features:\n- Modes: Wired and wireless\n- DPI: 16,000\n- RGB Lighting: Customizable\n- Interchangeable Grips: Yes\n- Customizable Buttons: Yes\n- Onboard Storage: Macros and profiles\n- Wireless Charging: Compatible with Corsair's wireless charging mouse pad",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse/corsair/glaive/glaive-500x500.jpg"
+  },
+  {
+    "name": "SteelSeries QcK Gaming Mouse Pad",
+    "price": 9.99,
+    "rating": 4,
+    "categori": "other",
+    "description": "Enhance your gaming experience with the SteelSeries QcK Gaming Mouse Pad. This mouse pad features a smooth cloth surface for precise mouse tracking and low friction. With a non-slip rubber base, it stays in place during intense gaming sessions. The QcK is available in various sizes to suit different setups and playstyles. It's easy to clean and maintain, ensuring long-lasting performance. Whether you're a casual gamer or a competitive player, the QcK provides a reliable and consistent surface for your mouse.\n\nKey Features:\n- Surface: Smooth cloth surface\n- Base: Non-slip rubber base\n- Sizes: Various sizes available\n- Easy to Clean: Yes\n- Precision Tracking: Low friction\n- Versatile Usage: Casual and competitive gaming",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse-pad/non-brand/apple-mouse-pad-500x500.jpg"
+  },
+  {
+    "name": "Blue Yeti USB Microphone",
+    "price": 129.99,
+    "rating": 5,
+    "categori": "other",
+    "description": "Achieve professional audio quality with the Blue Yeti USB Microphone. This versatile microphone offers four pickup patterns for various recording situations, including cardioid, bidirectional, omnidirectional, and stereo. It features a built-in headphone amplifier for real-time monitoring and adjustable gain control. The Yeti is compatible with both Windows and Mac computers and is perfect for podcasting, streaming, voiceovers, and more. With its robust build and exceptional sound quality, it's a favorite among content creators and musicians.\n\nKey Features:\n- Pickup Patterns: Cardioid, bidirectional, omnidirectional, stereo\n- Headphone Amplifier: Built-in\n- Gain Control: Adjustable\n- Compatibility: Windows and Mac\n- Versatile Usage: Podcasting, streaming, voiceovers, music recording",
+    "stock": true,
+    "img": "https://www.startech.com.bd/image/cache/catalog/microphone/boya/by-m1s/by-m1s-01-500x500.webp"
+  }
+]

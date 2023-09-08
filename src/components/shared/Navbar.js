@@ -5,8 +5,10 @@ import logo from "../../Assets/logo.svg"
 import Image from 'next/image';
 import { FiSearch } from "react-icons/fi"
 import { BsHeart } from "react-icons/bs"
+import { useSession, signOut } from 'next-auth/react';
 const Navbar = () => {
     const [bg, setBg] = useState(false);
+    const { data: session } = useSession();
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -19,8 +21,8 @@ const Navbar = () => {
             route: "/",
         },
         {
-            page: "Contact",
-            route: "/contact",
+            page: "Products",
+            route: "/product",
         },
         {
             page: "Blog",
@@ -43,12 +45,12 @@ const Navbar = () => {
 
         },
         {
-            route: "/category/ram",
+            route: "/category/RAM",
             name: "RAM"
 
         },
         {
-            route: "/category/storage",
+            route: "/category/Storage",
             name: "Storage"
         },
         {
@@ -56,7 +58,7 @@ const Navbar = () => {
             name: "Psu"
         },
         {
-            route: "/other",
+            route: "/category/other",
             name: "other"
         }
     ]
@@ -97,9 +99,12 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div className='flex items-center tracking-wider text-xl gap-4 pt-4'>
-                        <h1>Login / Register</h1>
+                        {
+                            !session?.user ? <h1><Link href="/login">Login</Link></h1> : <h1 onClick={() => signOut()}>Logout</h1>
+                        }
                         <h1><FiSearch /></h1>
                         <h1><BsHeart /></h1>
+                        <h1 className='text-sm px-4 py-2 build-pc text-white ml-3 rounded'>Pc Builder</h1>
                     </div>
                 </div>
             </div>

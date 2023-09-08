@@ -18,3 +18,27 @@ body {
   background: url(../Assets/service.jpg);
   background-size: cover;
 }
+.build-pc {
+  background: linear-gradient(
+    45deg,
+    #00237e,
+    #3749bb,
+    #0bc1e9,
+    #3749bb,
+    #00237e
+  );
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+  border: none;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

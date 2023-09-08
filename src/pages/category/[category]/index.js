@@ -13,18 +13,14 @@ const Category = ({ products }) => {
     const categoryProducts = products.filter((item) => item.categori === category.toString());
 
     return (
-        <div>
-            <h1>This is {category}</h1>
-            <div className='grid grid-cols-1 md:grid-cols-3 w-10/12 mx-auto gap-10 mt-20'>
-                {categoryProducts.length === 0 ? (
-                    <p className='text-xl '>No products available for this category.</p>
-                ) : (
-                    <div className='grid grid-cols-1 md:grid-cols-3 w-10/12 mx-auto gap-10 mt-20'>
-                        {categoryProducts.map((product) => (
-                            <ProductCard key={product?.id} product={product} />
-                        ))}
-                    </div>
-                )}
+        <div className=' relative'>
+            <h1 className='pt-40 text-3xl capitalize text-center font-semibold tracking-wider'><span className='text-[#F4D94A]'>{category} </span>Devices</h1>
+            <h1 className=' capitalize absolute top-20 font-semibold text-[#f4d84a1e] text-[220px] left-1/4'>{category}</h1>
+            <h1 className='text-lg tracking-wider text-center mt-1'>Check & Get Your Desired Product & Trending Products</h1>
+            <div className='grid grid-cols-1 md:grid-cols-3 w-10/12 mx-auto gap-10 my-20'>
+                {categoryProducts.map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                ))}
             </div>
         </div>
     );
