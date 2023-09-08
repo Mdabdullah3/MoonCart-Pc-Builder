@@ -30,29 +30,29 @@ const Navbar = () => {
 
     const categories = [
         {
-            route: "category/processor",
+            route: "/category/processor",
             name: "Cup / Processor",
         },
         {
-            route: "category/monitor",
+            route: "/category/monitor",
             name: "Monitor"
         },
         {
-            route: "category/motherboard",
+            route: "/category/motherboard",
             name: "Motherboard"
 
         },
         {
-            route: "category/ram",
+            route: "/category/ram",
             name: "RAM"
 
         },
         {
-            route: "category/storage",
+            route: "/category/storage",
             name: "Storage"
         },
         {
-            route: "category/psu",
+            route: "/category/psu",
             name: "Psu"
         },
         {
