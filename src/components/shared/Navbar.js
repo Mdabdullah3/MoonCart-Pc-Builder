@@ -68,9 +68,9 @@ const Navbar = () => {
             } flex items-center fixed top-0 w-full px-5 text-white z-10 transition-all duration-300 `}>
             <div className="text-[#24262B] flex justify-between items-center w-10/12 mx-auto">
                 <div className="flex w-9/12 mx-auto pt-4 gap-32 items-center">
-                    <div className=''>
+                    <Link href="/" className=' cursor-pointer'>
                         <Image src={logo} width={200} alt="" />
-                    </div>
+                    </Link>
                     <div className='flex gap-4'>
                         {
                             paths.map((path, index) => <Link
@@ -98,13 +98,13 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='flex items-center tracking-wider text-xl gap-4 pt-4'>
+                    <div className=' cursor-pointer flex items-center tracking-wider text-xl gap-4 pt-4'>
                         {
                             !session?.user ? <h1><Link href="/login">Login</Link></h1> : <h1 onClick={() => signOut()}>Logout</h1>
                         }
                         <h1><FiSearch /></h1>
                         <h1><BsHeart /></h1>
-                        <Link href="/pc-Builder" className='text-sm px-4 py-2 build-pc text-white ml-3 rounded'>Pc Builder</Link>
+                        <Link href="/pc-Builder" className=' cursor-pointer text-sm px-4 py-2 build-pc text-white ml-3 rounded'>Pc Builder</Link>
                     </div>
                 </div>
             </div>

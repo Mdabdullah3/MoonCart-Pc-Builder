@@ -9,7 +9,7 @@ const PcBuilder = () => {
     console.log(categoriItems);
     return (
         <div className='py-40 bg-white'>
-            <div className='pb-10 rounded-md bg-white w-9/12 px-20 mx-auto border-2 border-gray-500'>
+            <div className='pb-10 rounded-xl bg-white w-9/12 px-20 mx-auto border-2 border-gray-500'>
                 <h1 className='py-10 text-2xl font-semibold tracking-wider'>PC Builder - Build your own PC here!</h1>
                 <hr />
                 <div className='my-4'>
@@ -17,7 +17,7 @@ const PcBuilder = () => {
                     <div className='flex flex-col'>
                         {
                             categoriItems?.map(item => <>
-                                <div className='flex items-center justify-between border-2 p-4 border-gray-300 mb-4'>
+                                <div className='flex items-center justify-between border-2 p-4 border-gray-300 mb-4 rounded-xl'>
                                     <div className='flex gap-4 items-center rounded-md'>
                                         <Image src={item?.icon} alt="" width={80} />
                                         <h1 className='text-lg tracking-wider'>{item.name}</h1>
