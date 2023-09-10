@@ -30,7 +30,7 @@ const PcBuilder = () => {
                                             <h1 className='text-lg tracking-wider'>{item?.name}</h1>
                                         </div>
                                         <div>
-                                            <Link className='border-2 border-[#F4D94A] px-4 py-2 bg-[#F4D94A] text-white' href={`/pcBuilder/choose/${item?.categor}`}>Choose</Link>
+                                            <Link className='border-2 border-[#F4D94A] px-4 py-2 bg-[#F4D94A] text-white transition duration-300 rounded-sm hover:bg-transparent hover:text-black' href={`/pcBuilder/choose/${item?.categor}`}>Choose</Link>
                                         </div>
                                     </div>
                                     {

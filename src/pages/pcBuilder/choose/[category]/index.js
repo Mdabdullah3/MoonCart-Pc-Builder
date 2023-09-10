@@ -10,6 +10,8 @@ const Category = ({ categoryItems }) => {
     const { category } = router.query
     const categoryProducts = categoryItems.filter((item) => item.categori === category.toString());
 
+    console.log(categoryProducts);
+
     const dispatch = useDispatch()
 
     const handleAddToBuild = (product) => {
@@ -32,7 +34,10 @@ const Category = ({ categoryItems }) => {
                         <div className=' relative'>
                             <ProductCard product={product}>
                             </ProductCard>
-                            <button onClick={() => handleAddToBuild(product)} className='bg-[#F4D94A] px-5 text-white rounded-full py-2 absolute bottom-8 right-10'>Add To Build</button>
+
+                            {
+                                product?.stock == false ? "" : <button onClick={() => handleAddToBuild(product)} className='bg-[#F4D94A] px-5 text-white rounded-full py-2 absolute bottom-8 right-10'>Add To Build</button>
+                            }
                         </div>
                     </>)
                 }
