@@ -37,10 +37,10 @@ const Brands = () => {
             <h1 className="text-center text-2xl font-bold mt-28 tracking-wider">Our Brands
             </h1>
             <p className="text-lg tracking-wider pt-1 text-center">We Work With the Best Partners</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 mx-8 md:mx-28 relative font-mono">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 relative font-mono">
                 {brands.map((brand) => (
                     <div key={brand.id}>
-                        <div class="w-11/12 md:h-52 mb-10 bg-white shadow-xl rounded-lg">
+                        <div class="w-11/12 h-52 mb-10 bg-white shadow-xl rounded-lg mx-auto">
                             <div class="px-10 pt-8">
                                 <div class="justify-center">
                                     <Image className="w-36 items-center pb-2" src={brand.img} alt="assus-img" />

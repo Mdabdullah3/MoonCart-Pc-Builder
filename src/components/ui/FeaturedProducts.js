@@ -5,8 +5,8 @@ const FeaturedProducts = ({ product }) => {
     console.log(product);
     return (
         <div className='mt-20 relative'>
-            <h1 className=' absolute top-0 font-semibold text-[#f4d84a1e] text-[220px] left-1/4'>Products</h1>
-            <h1 className='text-2xl font-semibold tracking-wider text-center'>Our Products</h1>
+            <h1 className='hidden md:block absolute top-0 font-semibold text-[#f4d84a1e] text-[220px] left-1/4'>Products</h1>
+            <h1 className=' text-2xl font-semibold tracking-wider text-center'>Our Products</h1>
             <h1 className='text-lg tracking-wider text-center mt-1'>Check & Get Your Desired Product & Trending Products</h1>
             <div className='grid w-10/12 gap-10 mx-auto grid-cols-1 md:grid-cols-3 mt-20'>
                 {

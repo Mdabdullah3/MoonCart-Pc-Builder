@@ -5,9 +5,9 @@ import mouse from "../../Assets/mouse.png"
 const Banner = () => {
 
     return (
-        <div className='background h-screen relative'>
-            <h1 className=' absolute hidden md:block text-[320px] font-semibold top-1/4  left-1/4 text-[#f4d84a1e]'>Mouse</h1>
-            <div className='flex justify-center items-center w-9/12 mx-auto pt-40'>
+        <div className='background md:h-screen relative'>
+            <h1 className='absolute hidden md:block text-[320px] font-semibold top-1/4  left-1/4 text-[#f4d84a1e]'>Mouse</h1>
+            <div className='md:flex justify-center items-center w-9/12 mx-auto pt-40'>
 
                 <div className='text-[#24262B]'>
                     <h3 className='text-7xl font-semibold tracking-wider'>ASSUS P305 TUF M3 Gaming Mouse</h3>
