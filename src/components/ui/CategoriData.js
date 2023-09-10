@@ -24,21 +24,21 @@ export const categoriData = [
         id: 3,
         name: "Ram",
         icon: ram,
-        categor: "Ram",
+        categor: "RAM",
         path: '/RAM'
     },
     {
         id: 4,
         name: "Power Supply Unit",
         icon: psu,
-        categor: "powerSupply",
+        categor: "psu",
         path: "/psu"
     },
     {
         id: 5,
         name: "Storage Device",
         icon: ssd,
-        categor: "ssd",
+        categor: "Storage",
         path: "/Storage"
     },
     {

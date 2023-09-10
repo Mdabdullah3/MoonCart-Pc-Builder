@@ -25,12 +25,7 @@ const ProductCard = ({ product }) => {
                         />
                     ))}
                 </div>
-                <div class="flex mt-6 gap-6 text-sm font-medium justify-center">
-                    <button class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-[#F4D94A] px-5 py-2 hover:shadow-lg tracking-wider hover:text-black text-white rounded-full hover:bg-transparent border-2 border-[#F4D94A] ">
-                        Order Now
-                    </button>
-
-
+                <div class="mt-6 gap-6 text-sm font-medium">
                     <Link href={`/product/${product?._id}`} class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider hover:text-white rounded-full hover:bg-[#F4D94A] border-2 border-[#F4D94A] ">
                         See Details
                     </Link>

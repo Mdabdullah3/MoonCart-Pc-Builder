@@ -104,7 +104,7 @@ const Navbar = () => {
                         }
                         <h1><FiSearch /></h1>
                         <h1><BsHeart /></h1>
-                        <Link href="/pc-Builder" className=' cursor-pointer text-sm px-4 py-2 build-pc text-white ml-3 rounded'>Pc Builder</Link>
+                        <Link href="/pcBuilder" className=' cursor-pointer text-sm px-4 py-2 build-pc text-white ml-3 rounded'>Pc Builder</Link>
                     </div>
                 </div>
             </div>
