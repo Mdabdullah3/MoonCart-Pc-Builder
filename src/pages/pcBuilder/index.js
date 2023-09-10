@@ -65,7 +65,7 @@ const PcBuilder = () => {
                         Object.values(pcComponents).every(
                             (component) => component?.name
                         ) && <div className='block mx-auto text-center mt-8'>
-                            <button className='text-lg tracking-wider px-5 py-2 bg-[#F4D94A] text-white border-2 border-[#F4D94A] transition duration-300 hover:bg-transparent hover:text-black rounded-md'>
+                            <button onClick={() => alert("Successfully built PC!")} className='text-lg tracking-wider px-5 py-2 bg-[#F4D94A] text-white border-2 border-[#F4D94A] transition duration-300 hover:bg-transparent hover:text-black rounded-md'>
                                 Complete Build
                             </button>
                         </div>
