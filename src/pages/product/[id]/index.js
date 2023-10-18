@@ -1,4 +1,5 @@
 import RootLayout from '@/components/layout/RootLayout';
+import { apiLink } from '@/lib/config';
 import Image from 'next/image';
 import React from 'react';
 
@@ -53,7 +54,7 @@ ProductDetails.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-    const res = await fetch(`http://localhost:3000/api/products`);
+    const res = await fetch(`${apiLink}/api/products`);
     const products = await res.json();
 
     const paths = products?.data.map((product) => ({
@@ -68,7 +69,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }) => {
     const { id } = params;
-    const res = await fetch(`http://localhost:3000/api/products/${id}`);
+    const res = await fetch(`${apiLink}/api/products/${id}`);
     const product = await res.json();
 
     return {

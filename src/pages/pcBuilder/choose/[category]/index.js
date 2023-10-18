@@ -1,5 +1,6 @@
 import RootLayout from '@/components/layout/RootLayout';
 import ProductCard from '@/components/ui/ProductCard';
+import { apiLink } from '@/lib/config';
 import { addToPc } from '@/redux/features/pcBuilder/pcBuilderSlice';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -54,7 +55,7 @@ Category.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-    const res = await fetch("http://localhost:3000/api/products");
+    const res = await fetch(`${apiLink}/api/products`);
     const allProduct = await res.json();
 
     // Extract unique categories from your data
@@ -72,7 +73,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async () => {
-    const res = await fetch("http://localhost:3000/api/products");
+    const res = await fetch(`${apiLink}/api/products`);
     const allProduct = await res.json();
 
     return {
