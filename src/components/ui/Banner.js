@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <div className='background md:h-screen relative'>
-            <h1 className='absolute hidden md:block text-[320px] font-semibold top-1/4  left-1/4 text-[#f4d84a1e]'>Mouse</h1>
+            <h1 className='absolute hidden md:block text-[320px] font-semibold top-1/4  left-1/4 text-[#9083431e]'>Mouse</h1>
             <div className='md:flex justify-center items-center w-9/12 mx-auto pt-40'>
 
                 <div className='text-[#24262B]'>
