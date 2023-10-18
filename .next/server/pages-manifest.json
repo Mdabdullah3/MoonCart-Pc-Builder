@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/Blog": "pages/Blog.js",
+  "/api/products/[id]": "pages/api/products/[id].js",
+  "/api/products": "pages/api/products.js",
+  "/category": "pages/category.js",
+  "/login": "pages/login.js",
+  "/pcBuilder": "pages/pcBuilder.js",
+  "/_error": "pages/_error.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/category/[category]": "pages/category/[category].js",
+  "/pcBuilder/choose/[category]": "pages/pcBuilder/choose/[category].js",
+  "/": "pages/index.js",
+  "/product": "pages/product.js",
+  "/product/[id]": "pages/product/[id].js",
+  "/_document": "pages/_document.js"
+}
